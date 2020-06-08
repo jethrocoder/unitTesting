@@ -1,0 +1,16 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "this is my first practice employing tests using mocha, chai, nyc",
+  "main": "server.js",
+  "dependencies": {
+    "nyc":"^11.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "cover":"nyc  --reporter=text --reporter=html --reporter=lcov mocha"
+  },
+  "author": "shoaib",
+  "license": "ISC"
+}
