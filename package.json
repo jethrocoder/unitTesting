@@ -9,7 +9,8 @@
     "mocha": "^4.0.1",
     "nyc": "^11.3.0",
     "request": "^2.83.0",
-  "scripts": {
+	},
+  	"scripts": {
     "test": "mocha",
     "start": "node server.js",
     "cover":"nyc  --reporter=text --reporter=html --reporter=lcov mocha"
